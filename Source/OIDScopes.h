@@ -44,3 +44,8 @@ extern NSString *const OIDScopeAddress;
     @see http://openid.net/specs/openid-connect-core-1_0.html#ScopeClaims
  */
 extern NSString *const OIDScopePhone;
+
+/*! @brief This scope value requests access to the offline_access tokens.
+    @see http://openid.net/szpecs/openid-connect-core-1_0.html#ScopeClaims
+ */
+extern NSString *const OIDScopeOfflineAccess; 
